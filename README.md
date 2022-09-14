@@ -3,6 +3,7 @@ The frontend (`client`) is hooked to the backend (`server`) through the proxy se
 Run the application by first running the backend:
 - go into the server folder by typing the command `cd server` at the root of the folder
 - run `python app.py` on the terminal
+
 Then run the frontend to see what's going on:
 - `cd client` and run `npm start`
 

@@ -28,7 +28,7 @@ function App() {
 
     <Grid container direction="column" spacing={15} alignItems="center">
       <Grid item>
-        <ButtonAppBar></ButtonAppBar>      
+        <ButtonAppBar></ButtonAppBar>    
       </Grid>
 
       <Grid item>

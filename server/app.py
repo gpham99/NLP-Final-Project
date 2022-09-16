@@ -40,5 +40,6 @@ def summarize(text):
     summary_ids = model.generate(inputs, max_length=100, min_length=80, length_penalty=5., num_beams=2)
     summary = tokenizer.decode(summary_ids[0])
     return summary
+    
 if __name__ == '__main__':
     app.run(debug=True)

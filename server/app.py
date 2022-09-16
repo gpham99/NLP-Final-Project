@@ -43,6 +43,10 @@ def summarize(text):
     )
     summary = summarizer(text)
     return summary
+    
+if __name__ == '__main__':
+    app.run(debug=True)
+<<<<<<< HEAD
 
     # Secondary T5 method:
     # tokenizer = AutoTokenizer.from_pretrained('t5-base')
@@ -93,5 +97,6 @@ def summarize(text):
     # return summary
    
 
+    
 if __name__ == '__main__':
     app.run(debug=True)

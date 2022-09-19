@@ -44,10 +44,6 @@ def summarize(text):
     summary = summarizer(text)
     return summary
     
-if __name__ == '__main__':
-    app.run(debug=True)
-<<<<<<< HEAD
-
     # Secondary T5 method:
     # tokenizer = AutoTokenizer.from_pretrained('t5-base')
     # model = AutoModelWithLMHead.from_pretrained('t5-base', return_dict=True)
@@ -96,7 +92,6 @@ if __name__ == '__main__':
     #         summary += " " + sentence
     # return summary
    
-
     
 if __name__ == '__main__':
     app.run(debug=True)
